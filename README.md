@@ -63,14 +63,22 @@ python main.py
 ## 📈 **PSNR Results (Typical Values)**
 
 Salt & Pepper Noise Removal:
+
 ├── Median Filter: ~28-32 dB (BEST)
+
 ├── Mean Filter: ~22-25 dB
+
 └── Bilateral: ~25-28 dB
 
+
 Gaussian Noise Removal:
+
 ├── Gaussian Filter: ~30-35 dB (BEST)
+
 ├── Mean Filter: ~28-32 dB
+
 └── Median Filter: ~25-28 dB
+
 
 ---
 
@@ -81,7 +89,7 @@ Gaussian Noise Removal:
    - **Median**: Best for Salt & Pepper (removes outliers)
    - **Gaussian/Mean**: Best for Gaussian noise (smoothens)
    - **Bilateral**: Edge-preserving denoising
-3. **PSNR Metric**: \( PSNR = 20 \log_{10} \left( \frac{255}{\sqrt{MSE}} \right) \) [Higher = Better]
+3. **PSNR Metric**:  [Higher = Better]
 4. **Kernel Size Trade-off**: Larger = More smoothing, Less detail
 
 
