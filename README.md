@@ -62,22 +62,22 @@ python main.py
 
 ## 📈 **PSNR Results (Typical Values)**
 
-Salt & Pepper Noise Removal:
+**Salt & Pepper Noise Removal:**
 
-├── Median Filter: ~28-32 dB (BEST)
+Median Filter: ~28-32 dB (BEST)
 
-├── Mean Filter: ~22-25 dB
+Mean Filter: ~22-25 dB
 
-└── Bilateral: ~25-28 dB
+Bilateral: ~25-28 dB
 
 
-Gaussian Noise Removal:
+**Gaussian Noise Removal:**
 
-├── Gaussian Filter: ~30-35 dB (BEST)
+Gaussian Filter: ~30-35 dB (BEST)
 
-├── Mean Filter: ~28-32 dB
+Mean Filter: ~28-32 dB
 
-└── Median Filter: ~25-28 dB
+Median Filter: ~25-28 dB
 
 
 ---
